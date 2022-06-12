@@ -14,50 +14,70 @@ let availableQuestions = []
 let questions = [
     {
         question: "Which of the following number object functions returns the value of the number?",
-        choices: ["toString()", "toLocaleString()", "valueOf()"],
+        choice1: "toString()", 
+        choice2: "toLocaleString()", 
+        choice3: "valueOf()",
         answer: "valueOf()"
     },
     {
         question: "Which of the following is correct about JavaScript?", 
-        choices: ["JavaScript is an Object-oriented language", "JavaScript is Assembly-language", "JavaScript is an Object-Oriented language"],
+        choice1: "JavaScript is an Object-oriented language", 
+        choice2: "JavaScript is Assembly-language", 
+        choice3: "JavaScript is an Object-Oriented language",
         answer:"JavaScript is an Object-Oriented language"
     },
     {
         question: "In JavaScript, what is a block statement?",
-        choices: ["Conditional block", "Block that combines a number of statements into a single compund statement","Both conditional block and single statement"],
+        choice1: "Conditional block", 
+        choice2: "Block that combines a number of statements into a single compund statement",
+        choice3: "Both conditional block and single statement",
         answer: "Block that combines a number of statements into a single compund statement"
     },
     {
         question: "The 'Function' and 'Var' are known as?",
-        choices: ["Keywords", "Data Types", "Declaration statements"],
+        choice1: "Keywords", 
+        choice2: "Data Types", 
+        choice3: "Declaration statements",
         answer: "Declaration statements"
     },
     {
         question: "Which one of the following is the correct way for calling the JavaScript code",
-        choices: ["Function/method", "RMI", "Trigerring event"],
+        choice1: "Function/method", 
+        choice2: "RMI", 
+        choice3: "Trigerring event",
         answer: "Function/method"
     },
     {
         question: "What is JavaScript?",
-        choices: ["JavaScript is a scripting language used to make the website interactive", "JavaScript is an assembly language used to make the website interactive","JavaScript is a compiles language used to make the website interactive"],
-        answer:"JavaScript is a compiles language used to make the website interactive"
+        choice1: "JavaScript is a scripting language used to make the website interactive", 
+        choice2: "JavaScript is an assembly language used to make the website interactive",
+        choice3: "JavaScript is a compiles language used to make the website interactive",
+        answer: "JavaScript is a compiles language used to make the website interactive"
     },{
         question: "Which one of the following symbol is used for creating comments in the JavaScript?",
-        choices: ["//", "\\", "\/"],
+        choices1: "//", 
+        choice2: "\\", 
+        choice3: "\/",
         answer: "//"
     },
     {
         question: "Which of the following operator returns false if both values are equal?",
-        choices: ["!", "!=", "!=="],
+        choice1: "!", 
+        choice2: "!=", 
+        choice3:"!==",
         answer:"!="
     },{
         question: "Which one of the following is known as the Equality operator, which is used to check whether two values are equal or not:",
-        choices: ["&&", "===", "=="],
+        choice1: "&&", 
+        choice2: "===", 
+        choice3: "==",
         answer: "=="
     },
     {
         question: "Which of the following function of the String object returns the character in the string starting at the specified position via the specified number of characters?",
-        choices: ["slice()", "split()", "substr()"],
+        choices1: "slice()", 
+        choice2: "split()", 
+        choice3: "substr()",
         answer:"substr()"
     },
 ]
