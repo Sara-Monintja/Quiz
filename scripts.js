@@ -86,8 +86,6 @@ function renderQuestion(questionIndex){
     questionChoices.append(li);
   }
 
-
-
 }
 
 
