@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div id="end" class="flex-center flex-column">
             <h1 id="finalScore">0</h1>
             <form class="end-form-container">
-                <h2 id="end-text"Enter your initials below</h2>
-                    <input type="text" initials="initials"
-                    placeholder="Enter your initials">
+                <h2 id="end-text"Enter your initials below></h2>
+                    <input type="text" name="initials" id="initials" placeholder="Enter your initials">
                     <button class="btn" id="saveScoreBtn" type="submit"
-                    onClick="saveHighScore(event)" disabled>Save</buttton>
+                    onclick="saveHighScore(event)" disabled>Save</button>
             </form>
             <a href="question.html" class="btn">Play Again</a>
-            <a href=".home.html" class="btn">Go Home</a>
+            <a href="home.html" class="btn">Go Home</a>
             
         </div>
     </div>

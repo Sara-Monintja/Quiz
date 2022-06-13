@@ -12,19 +12,19 @@ body {
     background: #fff0f0;
 }
 
-:choice-container:hover {
+.choice-container:hover {
     cursor: pointer;
-    box-shadow: #ffd2d2; 
-    transform: scale (1.02);
-    transform: transform 100ms;
+    box-shadow: 0 0.4rem 1.4rem 0 #d1e9ff; 
+    transition: scale (1.05);
+    transform: transform 150ms;
 }
 
-choice-prefix {
+.choice-prefix {
     padding: 2rem 2.5rem;
     color: #000;
 }
 
-choice-text {
+.choice-text {
     padding: 2rem;
     width: 100%;
 }
@@ -41,6 +41,7 @@ choice-text {
 #progress {
     display: flex;
     justify-content: space-between;
+    margin-top: 2rem;
 }
 
 .progress-prefix {

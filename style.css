@@ -3,14 +3,24 @@
     font-family: 'Poppins', 'sans-serif';
     margin: 0;
     padding: 0;
-    font-size: 62.5%;
-    
+    font-size: 62.5%;  
 }
 
 h1 {
-    font-size: 5.4rem;
+    font-size: 5rem;
     color: #000;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 10rem;
+    margin-bottom: 4rem;
+    color: #000;
+}
+
+h3 {
+    font-size: 3rem;
+    list-style: none;
 }
 
 .container {
@@ -77,3 +87,41 @@ h1 {
     box-shadow: 0 0.4rem 1.4rem 0 #ffd2d2;
 }
    
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+    font-size: 4rem;
+}
+
+.input { 
+    margin-bottom: 5rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.4rem 1.4rem 0 #d1e9ff;
+}
+
+input::placeholder {
+    color: #a7a7a7
+}
+
+#initials {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    color:#000;
+    text-align: center;
+}
+
+#saveScoreBtn {
+    border: none;
+}
+
