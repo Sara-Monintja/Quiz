@@ -51,8 +51,8 @@ let questions = [
         question: "What is JavaScript?",
         choice1: "JavaScript is a scripting language used to make the website interactive", 
         choice2: "JavaScript is an assembly language used to make the website interactive",
-        choice3: "JavaScript is a compiles language used to make the website interactive",
-        answer: "JavaScript is a compiles language used to make the website interactive"
+        choice3: "JavaScript is a compiled language used to make the website interactive",
+        answer: "JavaScript is a compiled language used to make the website interactive"
     },{
         question: "Which one of the following symbol is used for creating comments in the JavaScript?",
         choices1: "//", 
